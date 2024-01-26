@@ -1,0 +1,26 @@
+# .gitignore for Next.js
+
+# Node.js
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Yarn
+yarn-error.log
+yarn.lock
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
