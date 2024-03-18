@@ -19,7 +19,7 @@ const config: Config = {
         fontFamily: {
             sans: ["Georgia", "sans-serif"],
             serif: ["Merriweather", "serif"],
-            display: ["0swald"],
+            display: ["Oswald"],
         },
         fontSize: {
             sm: "0.8rem",
@@ -31,6 +31,10 @@ const config: Config = {
             "4xl": "2.441rem",
             "5xl": "3.052rem",
             "6xl": "3.5rem",
+        },
+        minWidth: {
+            0: "0",
+            100: "100px",
         },
         extend: {
             width: {
@@ -69,7 +73,7 @@ const config: Config = {
             xl: "1280px",
             // => @media (min-width: 1280px) { ... }
 
-            "2xl": "1536",
+            "2xl": "1536px",
             // => @media (min-width: 1536px) { ... }
         },
     },
